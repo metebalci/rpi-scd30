@@ -1,0 +1,13 @@
+CC=gcc
+CFLAGS=-I. -I/opt/vc/include -L/opt/vc/lib -std=c11 -Os -O2 
+CFLAGS+= -lbcm_host -lrt
+CFLAGS+=-Wall -Wextra -Wshadow -Wfatal-errors
+CFLAGS+=-D_GNU_SOURCE=1
+
+all: clean co2trh
+
+clean: 
+	rm -rf co2trh
+
+co2trh: scd30.o bsc.o crc8scd30.o
+	$(CC) -o co2trh co2trh.c scd30.o bsc.o crc8scd30.o $(CFLAGS)
