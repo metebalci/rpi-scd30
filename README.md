@@ -1,4 +1,6 @@
-# rpi-scd30
+# Description
+
+[![Build Status](https://travis-ci.org/metebalci/rpi-scd30.svg?branch=master)](https://travis-ci.org/metebalci/rpi-scd30)
 
 This is a sample of how to use Sensirion SCD30 on Raspberry Pi 3.
 
