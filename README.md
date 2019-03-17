@@ -63,6 +63,6 @@ co2trh is set to compensate for the altitude, 420m.
 
 So I collect the data like this:
 
-! [SCD30 CO2 Chart](https://raw.githubusercontent.com/metebalci/rpi-scd30/master/scd30_co2.png)
+![SCD30 CO2 Chart](https://raw.githubusercontent.com/metebalci/rpi-scd30/master/scd30_co2.png)
 
-! [SCD30 T-RH Chart](https://raw.githubusercontent.com/metebalci/rpi-scd30/master/scd30_trh.png)
+![SCD30 T-RH Chart](https://raw.githubusercontent.com/metebalci/rpi-scd30/master/scd30_trh.png)
